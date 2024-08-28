@@ -4,7 +4,8 @@
   "description": "Marco Troisi's presentations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "marp --pdf decks/",
+    "start": "marp --server decks/"
   },
   "author": "Marco Troisi",
   "license": "ISC",
