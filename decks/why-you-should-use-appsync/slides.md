@@ -1,9 +1,20 @@
+---
+title: Why You Should Build Your Next Product With AppSync
+description: 
+author: Marco Troisi
+keywords: appsync,aws community day
+url: https://marcotroisi.com
+---
+
 <!-- Global style -->
 <style>
 h1,h2,h3,h4 {
   color: #213466;
   text-align: left;
   font-family: 'CaskaydiaCove NF', serif;
+}
+section.lead h2, section.lead h3 {
+  text-align: center;
 }
 h2 {
   font-size: 58px;
@@ -22,38 +33,15 @@ img[alt~="center"] {
 }
 </style>
 
-#---
-title: Why You Should Build Your Next Product With AppSync
-description: 
-author: Marco Troisi
-keywords: appsync,aws community day
-url: https://marcotroisi.com
-paginate: true
---- 
-
-# Synopsis
-
-We all need solutions that enable rapid development without sacrificing scalability or maintainability.
-
-Enter AWS AppSync: the game-changing service that's revolutionising how we build and deploy applications.
-This talk will showcase how AppSync serves as the ultimate productivity booster for teams looking to ship robust, scalable products quickly. We'll explore:
-
-Rapid Prototyping: How AppSync enables developers to bring ideas to life faster than ever before.
-Infinite Scalability: The power of serverless architecture in handling growth from MVP to enterprise-level applications.
-Team Collaboration: How GraphQL bridges the gap between frontend and backend teams, fostering a shared language and improved communication.
-Native AWS Integration: AppSync's seamless connections to AWS services, reducing the need for complex glue code and enhancing overall system reliability.
-Error Reduction: The benefits of AppSync's native connectors in minimizing custom code and potential points of failure.
-Cloud-Native Evolution: How AppSync surpasses traditional frameworks like Rails, offering similar rapid development capabilities with the added advantages of serverless architecture.
-Empowering Small Teams: Real-world examples of how small developer teams can fully own and scale products built with AppSync.
-Whether you're a developer looking to supercharge your workflow or a decision-maker seeking to optimize your tech stack, this talk will demonstrate why AWS AppSync is the key to building successful, scalable products in the modern cloud era.
-
----
 
 <!-- backgroundImage: "linear-gradient(to bottom, #ffffff, #EBEFFC)" -->
+<!-- _class: lead -->
 
 ![bg left:33%](https://upload.wikimedia.org/wikipedia/commons/c/c6/Swiss_army_knife_open_20050612.jpg)
 
 # Why You Should Build Your Next Product With AppSync
+### Marco Troisi
+![height:80px center](aws_community_day_logo.png)
 
 ---
 <!-- footer: Marco Troisi • Why You Should Build Your Next Product With AppSync -->
@@ -69,7 +57,7 @@ Whether you're a developer looking to supercharge your workflow or a decision-ma
 - AWS Community Builder (Serverless)
 - Writer for The Serverless Mindset newsletter
 
-![companies center](https://raw.githubusercontent.com/marcotroisi/presentations/main/decks/why-you-should-use-appsync/companies_logos.png)
+![companies center height:100px](https://raw.githubusercontent.com/marcotroisi/presentations/main/decks/why-you-should-use-appsync/companies_logos.png)
 
 ---
 
@@ -110,43 +98,72 @@ Whether you're a developer looking to supercharge your workflow or a decision-ma
 
 # Rapid Prototyping
 
-Content here
+1. Build a UI
+2. Write the interactions in GraphQL
+3. Figure out the AWS services needed
+4. Write the resolvers
+5. Amplify codegen
+6. Good to go 🎉
 
 ---
 
 # Infinite Scalability
 
-Content here
+- Automatic scaling
+- 100% serverless
+- Real-time data sync
+- IAM authentication
+- Multi-region support
 
 ---
 
 # Team Collaboration
 
-Content here
+- GraphQL as a shared language between frontend and backend
+- Reduce misunderstandings
+- Parallelise work
 
 ---
 
-# Native AWS Integration
+# Native AWS Integrations
 
-Content here
+- Easy to connect *directly* to AWS services
+- No need for glue code
 
 ---
 
 # Error Reduction
 
-Content here
+- Less reliance on custom code
+- Fewer potential points of failure
+- Less boilerplate
 
 ---
 
 # Cloud-Native Evolution
 
-Content here
+- The convenience of Django, Rails, Laravel
+- ...but backed by the cloud!
+
+(AppSync is not a battery-included framework)
 
 ---
 
 # Empowering Small Teams
 
-Example of how we rebuild our entire API layer at Trilo in the space of a few weeks
+- We rebuilt our entire API layer in a few weeks
+- Made us much more productive and able to parallelise our work
+- Has given us clarity over our data access patterns
+- Has made it easier for frontend people to venture into the backend
+
+---
+
+<!-- 
+paginate: false 
+footer: ""
+-->
+
+![bg](trilo_arch.png)
 
 ---
 
