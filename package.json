@@ -4,7 +4,7 @@
   "description": "Marco Troisi's presentations",
   "main": "index.js",
   "scripts": {
-    "build": "marp --pdf decks/",
+    "build": "marp --allow-local-files --pdf decks/",
     "start": "marp --server decks/"
   },
   "author": "Marco Troisi",
