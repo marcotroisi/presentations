@@ -81,7 +81,7 @@ img[alt~="center"] {
   - Not so great DX
   - Business logic very hard to test
 
-![bg right:45%](appsync_launch.png)
+![bg right:45%](vtl_screenshare.gif)
 
 ---
 
@@ -166,6 +166,26 @@ footer: ""
 ![bg](trilo_arch.png)
 
 ---
+
+<!-- 
+paginate: true 
+footer: Marco Troisi • Why You Should Build Your Next Product With AppSync 
+-->
+
+- *Reason #1*: Rapid Prototyping
+- *Reason #2*: Infinite Scalability
+- *Reason #3*: Team Collaboration
+- *Reason #4*: Native AWS Integration
+- *Reason #5*: Error Reduction
+- *Reason #6*: Cloud-Native Evolution
+- *Reason #7*: Empowering Small Teams
+
+---
+
+<!-- 
+paginate: false 
+footer: ""
+-->
 
 # Thank You! 🙏
 
