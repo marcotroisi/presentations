@@ -76,6 +76,15 @@ img[alt~="center"] {
 
 ## The evolution of AppSync
 
+- The building blocks
+  - Schema
+  - Data sources
+  - Resolvers
+
+---
+
+## The evolution of AppSync
+
 - The old AppSync 
   - VT-*hell*
   - Not so great DX
@@ -90,7 +99,7 @@ img[alt~="center"] {
 - The *new* AppSync 
   - Javascript resolvers
   - Lambda resolvers
-  - Direct connections
+  - More direct connections
 
 ![bg right:45%](js_resolver_code.png)
 
@@ -142,8 +151,8 @@ img[alt~="center"] {
 
 # Cloud-Native Evolution
 
-- The convenience of Django, Rails, Laravel
-- ...but backed by the cloud!
+- The convenience of Django, Rails, Laravel (not really, but kinda)
+- Backed by the cloud!
 
 (AppSync is not a battery-included framework)
 
